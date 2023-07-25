@@ -7,14 +7,14 @@ The tasks in this project cover various aspects of ES6, including block scope, a
 ## Tasks
 
 1. [Const or let?](./0-constants.js): Convert `var` to either `const` or `let` in a given code snippet.
-2. [Block Scope](./1-block_scope.js): Update the given code snippet to fix the scoping issue.
-3. [Arrow functions](./2-arrow_functions.js): Convert regular functions to arrow functions and update the given code snippet.
-4. [Parameter defaults](./3-default_parameters.js): Update the given code snippet to use default parameters.
-5. [Rest parameter syntax for functions](./4-rest_parameter.js): Convert arguments to rest parameters in the given code snippet.
-6. [The wonders of spread syntax](./5-spread_operator.js): Update the given code snippet to use spread syntax.
-7. [Take advantage of template literals](./6-string_template.js): Update the given code snippet to use template literals.
-8. [Object property value shorthand syntax](./7-getters_setters.js): Update the given code snippet to use object property value shorthand.
-9. [No need to create empty objects before adding in properties](./8-create_class.js): Update the given code snippet to use class syntax and improve object creation.
+2. [Block Scope](./1-block-scope.js): Update the given code snippet to fix the scoping issue.
+3. [Arrow functions](./2-arrow-functions.js): Convert regular functions to arrow functions and update the given code snippet.
+4. [Parameter defaults](./3-default-parameters.js): Update the given code snippet to use default parameters.
+5. [Rest parameter syntax for functions](./4-rest-parameter.js): Convert arguments to rest parameters in the given code snippet.
+6. [The wonders of spread syntax](./5-spread-operator.js): Update the given code snippet to use spread syntax.
+7. [Take advantage of template literals](./6-string-template.js): Update the given code snippet to use template literals.
+8. [Object property value shorthand syntax](./7-getters-setters.js): Update the given code snippet to use object property value shorthand.
+9. [No need to create empty objects before adding in properties](./8-create-class.js): Update the given code snippet to use class syntax and improve object creation.
 10. [ES6 method properties](./9-triangle.js): Update the given code snippet to use method properties of ES6.
 11. [For...of Loops](./101-sorted.js): Convert `for` loops to `for...of` loops in the given code snippet.
 12. [Iterator](./102-seq.js): Implement an iterator for a custom sequence object.
