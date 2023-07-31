@@ -7,7 +7,7 @@
  * }[]} students - The list of students.
  * @author Brainstorma <https://github.com/Brainstorma>
  * @returns {Number}
- **/
+ */
 export default function getStudentIdsSum(students) {
   if (students instanceof Array) {
     return students.reduce(
