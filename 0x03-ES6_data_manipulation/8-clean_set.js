@@ -6,7 +6,7 @@
  * of each item in the set.
  * @author Brainstorma <https://github.com/Brainstorma>
  * @returns {String}
- **/
+ */
 export default function cleanSet(set, startString) {
   const parts = [];
   if (!set || !startString || !(set instanceof Set) || typeof startString !== 'string') {
