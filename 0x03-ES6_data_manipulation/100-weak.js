@@ -1,11 +1,11 @@
 /**
  * A weak map of endpoints and the number of calls made.
- **/
+ */
 export const weakMap = new WeakMap();
 
 /**
  * The maximum number of calls for an endpoint.
- **/
+ */
 const MAX_ENDPOINT_CALLS = 5;
 
 /**
@@ -15,7 +15,7 @@ const MAX_ENDPOINT_CALLS = 5;
  *   name: String,
  * }} endpoint - The endpoint to make a request to.
  * @author Brainstorma <https://github.com/Brainstorma>
- **/
+ */
 export function queryAPI(endpoint) {
   if (!weakMap.has(endpoint)) {
     weakMap.set(endpoint, 0);
