@@ -5,7 +5,7 @@
  * @param {Number} value - The value to be stored in the position.
  * @author Brainstorma <https://github.com/Brainstorma>
  * @returns {DataView}
- **/
+ */
 export default function createInt8TypedArray(length, position, value) {
   if (position >= length) {
     throw new Error('Position outside range');

@@ -2,7 +2,7 @@
  * Retrieves a map of grocery names and their quantity.
  * @author Brainstorma <https://github.com/Brainstorma>
  * @returns {Map<string, Number>}
- **/
+ */
 export default function groceriesList() {
   const values = [
     ['Apples', 10],
